@@ -1,0 +1,11 @@
+﻿{
+    "compilerOptions": {
+        "declaration": true,
+        "lib": [ "es2015", "dom" ],
+        "outDir": "lib",
+        "target": "es5"
+    },
+    "files": [
+        "src/jw-paginate.ts"
+    ]
+}

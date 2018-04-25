@@ -1,0 +1,18 @@
+{
+    "name": "jw-paginate",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cornflourblue/jw-paginate.git"
+    },
+    "scripts": {
+        "build": "tsc",
+        "demo": "node ./demo/index.js"
+    },
+    "main": "./lib/jw-paginate.js",
+    "types": "./lib/jw-paginate.d.ts",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^2.8.3"
+    }
+}
