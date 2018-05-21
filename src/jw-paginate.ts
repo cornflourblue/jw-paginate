@@ -7,6 +7,13 @@ function paginate(
   // calculate total pages
   let totalPages = Math.ceil(totalItems / pageSize);
 
+  // ensure current page isn't out of range
+  if (currentPage < 1) { 
+      currentPage = 1; 
+  } else if (currentPage > totalPages) { 
+      currentPage = totalPages; 
+  }
+
   let startPage: number, endPage: number;
   if (totalPages <= maxPages) {
     // total pages less than max so show all pages
