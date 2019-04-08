@@ -1,6 +1,7 @@
 {
     "name": "jw-paginate",
-    "version": "1.0.2",
+    "version": "1.0.4",
+    "homepage": "http://jasonwatmore.com/post/2018/08/07/javascript-pure-pagination-logic-in-vanilla-js-typescript",
     "repository": {
         "type": "git",
         "url": "https://github.com/cornflourblue/jw-paginate.git"
