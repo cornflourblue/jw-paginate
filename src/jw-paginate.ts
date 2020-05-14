@@ -46,17 +46,9 @@ function paginate(
   let pages = Array.from(Array((endPage + 1) - startPage).keys()).map(i => startPage + i);
 
   // return object with all pager properties required by the view
-  return {
-    totalItems: totalItems,
-    currentPage: currentPage,
-    pageSize: pageSize,
-    totalPages: totalPages,
-    startPage: startPage,
-    endPage: endPage,
-    startIndex: startIndex,
-    endIndex: endIndex,
-    pages: pages
-  };
+  return { totalItems, currentPage, pageSize, totalPages, startPage, endPage, startIndex, endIndex, pages };
+
+  //If you going to splice an array after call paginate function you will need sum 1 to endIndex to get the exact items example -> arr.splice(startIndex, endIndex+1)
 }
 
 export = paginate;
